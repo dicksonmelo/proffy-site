@@ -82,7 +82,7 @@
 }
 
 #search-teachers button:hover {
-   background-color: var(--color-secondaty-dark);
+   background-color: var(--color-secondary-dark);
 }
 
 .select-block label,
@@ -207,7 +207,7 @@
 }
 
 .teacher-item footer button:hover {
-      background: var(--color-secondary-dark);
+   background: var(--color-secondary-dark);
 }
 
 @media (min-width: 700px) {
@@ -246,7 +246,7 @@
 
    #search-teachers {
       display: grid;
-      grid-template-columns: reapeat(4, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 16px;
       position: absolute;
       bottom: -28px;
